@@ -1,0 +1,89 @@
+#container{
+    Width:575px;
+    Height:485px; 
+    background: #041342;
+    /* display:flex;
+    align-items: start;
+    justify-content:space-around ; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    margin-bottom: 0;
+}
+
+.disaply-output{
+    display:flex;
+    align-items: start;
+    justify-content:space-around ;
+}
+
+.header{
+    color: white;
+    margin-left: 20px;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.scoreboard{
+  margin-top:35px;
+  margin-bottom: 0;
+  width:155px;
+  height:120px;
+  border-radius: 10px;
+  font-size: 80px;
+  color:#F94F6D;
+  font-family:'Cursed Timer Ulil';
+  font-weight: 700;
+  background: black;
+  text-align: center;
+  padding-top: 40px;
+  margin-left: 10px;
+   }
+
+@font-face {
+    font-family: 'Cursed Timer Ulil'; 
+    src: url('fonts/CursedTimerUlil-Aznm.ttf');
+  } 
+  
+.small-btn{
+    margin-top:40px;
+    width: 155px;
+    height:45px;
+    margin-top: 30px;
+    margin-left: 10px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+   
+}
+.btn{
+    width:45px;
+    height:45px;
+    border-radius: 10px;
+    font-family:'Cursed Timer Ulil';
+    font-size: large;
+    background: #041342;
+    color:white;
+    border: 1px solid white;
+}
+.btn:hover{
+    border: 1px solid blue;
+}
+
+
+.new_game{
+    margin-top: 35px;
+    margin-left: 180px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-size: 30px;
+    color:white;
+    font-family:'Cursed Timer Ulil';;
+    font-weight: 100;
+    background: black;
+    text-align: center;
+}
+.new_game:hover{
+    border: 1px solid black;
+}
+
